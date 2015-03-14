@@ -44,7 +44,8 @@
 				  <img src="img/vagrant.png" height=400 style="border:0;background:none;box-shadow:0">
 				  <h2>virtualisation with ease</h2>
 				  <p>
-				    <small>Created by <a href="https://github.com/humaton">Tomas Hrcka</a></small>
+				    <small>Presented by <a href="https://github.com/humaton">Tomas Hrcka</a></small>
+				    
 				  </p>
 				</section>
 				
@@ -62,13 +63,12 @@
 				
 				<section>
 					<h2>Key terms</h2>
-					<p class="fragment roll-in">Box</p>
-					<p class="fragment roll-in">Vagrantfile</p>
 					<p class="fragment roll-in">Host</p>
 					<p class="fragment roll-in">Guest</p>
 					<p class="fragment roll-in">Provider</p>
 					<p class="fragment roll-in">Provisioner</p>
-					
+					<p class="fragment roll-in">Vagrant Box</p>
+					<p class="fragment roll-in">Vagrantfile</p>
 				</section>
 
 				<section>
@@ -298,7 +298,7 @@ $ tar cvzf vagrant-fedora-21-server.box ./metadata.json vagrant-fedora-21-server
 				<section>
 					<section>
 						<h2>Creating a Vagrant box</h2>
-						<p>in a sane way</p>
+						<p>the lazy way</p>
 						<pre><code data-trim contenteditable>
 $ gem install veewee
 $ veewee kvm templates # list available templates for KVM
